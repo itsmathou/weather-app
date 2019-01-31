@@ -14,7 +14,7 @@ Goals:
 
 ## Prerequisites   
 
-You'll need [XCode](https://developer.apple.com/xcode/) (Apple's IDE) and the dependencies manager Cocoapods. If it's not the case, just run `gem install cocoapods` in your terminal. And yes, sometimes we do use this ruby gen to manage our dependencies.   
+You'll need [XCode](https://developer.apple.com/xcode/) (Apple's IDE) and the dependencies manager Cocoapods. If it's not the case, just run `gem install cocoapods` in your terminal. And yes, sometimes we do use this ruby gem to manage our dependencies.   
 You're good to go now! Ready?   
 
 ## Set up project
