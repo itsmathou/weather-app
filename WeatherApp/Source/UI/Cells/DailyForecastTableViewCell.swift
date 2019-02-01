@@ -17,7 +17,8 @@ class DailyForecastTableViewCell: UITableViewCell {
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-//        dateFormatter.dateFormat = "EEEE"
+        dateFormatter.dateFormat = "EEEE"
+        setupViews()
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -45,6 +46,8 @@ class DailyForecastTableViewCell: UITableViewCell {
             contentView.addSubview(dayView)
             views.append(dayView)
         }
+        
+        initializeConstraints()
     }
     
     func initializeConstraints() {
